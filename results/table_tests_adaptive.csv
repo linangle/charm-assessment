@@ -1,0 +1,97 @@
+quantity,unit_label,lead_days,n_matchups,model_trend_r,model_trend_p,model_trend_sig,nonstationary_by_acf,adf_p,kpss_p,stationarity_verdict,ccf_transform,arima_order,ks_D,ks_Dcrit,ks_reject,ccf_r_at_zero,ccf_peak_lag,ccf_peak_r,ccf_peak_meaning,ccf_n_sig_lags
+pda,All California HAB stations (Particulate domoic acid),0,1004,-0.164,0.0,True,False,0.879,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.552,0.061,True,0.003,-22.0,0.108,model leads obs by 22 d,3
+pda,All California HAB stations (Particulate domoic acid),1,985,-0.112,0.0,True,False,0.021,0.1,stationary (both agree),linear detrend,,0.538,0.061,True,-0.003,3.0,0.116,model lags obs by 3 d,4
+pda,All California HAB stations (Particulate domoic acid),2,1010,-0.093,0.002,True,False,0.065,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.539,0.061,True,0.001,4.0,0.116,model lags obs by 4 d,4
+pda,All California HAB stations (Particulate domoic acid),3,959,-0.101,0.001,True,False,0.071,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.546,0.062,True,0.027,5.0,0.119,model lags obs by 5 d,4
+pda,Cal Poly Pier,0,156,-0.305,0.0,True,False,0.05,0.1,stationary (both agree),linear detrend,,0.603,0.154,True,-0.02,12.0,-0.227,model lags obs by 12 d,2
+pda,Cal Poly Pier,1,147,-0.3,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.524,0.159,True,0.123,-15.0,-0.196,model leads obs by 15 d,2
+pda,Cal Poly Pier,2,155,-0.291,0.0,True,True,0.076,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.555,0.154,True,-0.14,-25.0,-0.239,model leads obs by 25 d,3
+pda,Cal Poly Pier,3,135,-0.296,0.0,True,True,0.002,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.533,0.166,True,0.204,-24.0,-0.233,model leads obs by 24 d,6
+pda,Humboldt,0,28,0.083,0.007,True,True,0.002,0.1,stationary (both agree),"ARIMA(1, 1, 2) residuals","(1, 1, 2)",0.464,0.363,True,0.173,4.0,0.623,model lags obs by 4 d,9
+pda,Humboldt,1,32,0.152,0.0,True,True,0.092,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.344,0.34,True,0.17,5.0,0.59,model lags obs by 5 d,5
+pda,Humboldt,2,33,0.166,0.0,True,False,0.072,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.364,0.335,True,0.154,-7.0,-0.553,model leads obs by 7 d,5
+pda,Humboldt,3,29,0.149,0.0,True,False,0.058,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.379,0.357,True,-0.393,-23.0,-0.547,model leads obs by 23 d,6
+pda,Humboldt South Bay,0,31,0.111,0.0,True,True,0.002,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.516,0.345,True,-0.024,-30.0,0.427,model leads obs by 30 d,4
+pda,Humboldt South Bay,1,31,0.211,0.0,True,True,0.001,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.516,0.345,True,-0.263,-29.0,0.567,model leads obs by 29 d,5
+pda,Humboldt South Bay,2,29,0.216,0.0,True,True,0.052,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.586,0.357,True,0.048,-28.0,0.595,model leads obs by 28 d,4
+pda,Humboldt South Bay,3,30,0.209,0.0,True,True,0.023,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.533,0.351,True,-0.334,-27.0,0.456,model leads obs by 27 d,3
+pda,Newport Beach Pier,0,140,-0.02,0.508,False,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.529,0.163,True,0.013,-1.0,0.249,model leads obs by 1 d,6
+pda,Newport Beach Pier,1,130,0.007,0.824,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.538,0.169,True,-0.009,-3.0,-0.289,model leads obs by 3 d,7
+pda,Newport Beach Pier,2,138,0.014,0.641,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.565,0.164,True,-0.176,-2.0,-0.314,model leads obs by 2 d,4
+pda,Newport Beach Pier,3,129,0.019,0.542,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.581,0.169,True,-0.025,-1.0,-0.319,model leads obs by 1 d,8
+pda,Santa Cruz Wharf,0,149,-0.252,0.0,True,False,0.002,0.1,stationary (both agree),linear detrend,,0.55,0.158,True,-0.159,1.0,-0.2,model lags obs by 1 d,4
+pda,Santa Cruz Wharf,1,152,-0.24,0.0,True,False,0.003,0.1,stationary (both agree),linear detrend,,0.493,0.156,True,-0.116,2.0,-0.215,model lags obs by 2 d,5
+pda,Santa Cruz Wharf,2,151,-0.219,0.0,True,False,0.025,0.1,stationary (both agree),linear detrend,,0.503,0.157,True,-0.162,-5.0,-0.22,model leads obs by 5 d,7
+pda,Santa Cruz Wharf,3,149,-0.23,0.0,True,False,0.014,0.1,stationary (both agree),linear detrend,,0.497,0.158,True,0.004,-4.0,-0.239,model leads obs by 4 d,6
+pda,Santa Monica Pier,0,154,-0.022,0.462,False,True,0.011,0.029,"conflicting: ADF stationary, KPSS non-stationary (possible trend-stationarity)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.558,0.155,True,-0.171,11.0,-0.255,model lags obs by 11 d,12
+pda,Santa Monica Pier,1,154,0.01,0.754,False,True,0.0,0.062,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.578,0.155,True,-0.048,-17.0,-0.234,model leads obs by 17 d,12
+pda,Santa Monica Pier,2,156,0.034,0.263,False,True,0.003,0.01,"conflicting: ADF stationary, KPSS non-stationary (possible trend-stationarity)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.571,0.154,True,0.034,13.0,-0.205,model lags obs by 13 d,7
+pda,Santa Monica Pier,3,151,0.029,0.342,False,True,0.001,0.011,"conflicting: ADF stationary, KPSS non-stationary (possible trend-stationarity)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.556,0.157,True,-0.204,14.0,-0.255,model lags obs by 14 d,7
+pda,Scripps Pier,0,156,-0.168,0.0,True,True,0.002,0.092,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.564,0.154,True,0.156,-17.0,-0.391,model leads obs by 17 d,12
+pda,Scripps Pier,1,154,-0.187,0.0,True,True,0.001,0.094,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.571,0.155,True,-0.138,-16.0,-0.367,model leads obs by 16 d,9
+pda,Scripps Pier,2,157,-0.183,0.0,True,True,0.0,0.06,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.535,0.153,True,0.003,-15.0,-0.39,model leads obs by 15 d,6
+pda,Scripps Pier,3,151,-0.171,0.0,True,True,0.001,0.037,"conflicting: ADF stationary, KPSS non-stationary (possible trend-stationarity)","ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.556,0.157,True,-0.128,-14.0,-0.347,model leads obs by 14 d,9
+pda,Stearns Wharf,0,152,-0.287,0.0,True,True,0.001,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.618,0.156,True,-0.168,-28.0,-0.31,model leads obs by 28 d,12
+pda,Stearns Wharf,1,148,-0.255,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.628,0.158,True,0.057,25.0,-0.235,model lags obs by 25 d,6
+pda,Stearns Wharf,2,152,-0.244,0.0,True,True,0.002,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.605,0.156,True,-0.069,-9.0,-0.238,model leads obs by 9 d,7
+pda,Stearns Wharf,3,146,-0.244,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.61,0.159,True,0.149,-8.0,-0.27,model leads obs by 8 d,9
+pda,Trinidad Pier,0,38,-0.011,0.723,False,True,0.001,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.447,0.312,True,-0.123,19.0,-0.482,model lags obs by 19 d,8
+pda,Trinidad Pier,1,37,0.004,0.904,False,False,0.054,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",none (stationary),,0.459,0.316,True,-0.243,-2.0,-0.582,model leads obs by 2 d,15
+pda,Trinidad Pier,2,39,0.015,0.631,False,False,0.045,0.057,stationary (both agree),none (stationary),,0.538,0.308,True,-0.515,-1.0,-0.56,model leads obs by 1 d,15
+pda,Trinidad Pier,3,39,0.013,0.67,False,False,0.132,0.094,"conflicting: ADF unit root, KPSS stationary (weak evidence)",none (stationary),,0.564,0.308,True,-0.648,0.0,-0.648,zero lag,11
+pn,All California HAB stations (Pseudo-nitzschia spp.),0,1428,0.228,0.0,True,True,0.006,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.525,0.051,True,0.018,6.0,-0.116,model lags obs by 6 d,1
+pn,All California HAB stations (Pseudo-nitzschia spp.),1,1406,0.186,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.515,0.051,True,-0.128,0.0,-0.128,zero lag,3
+pn,All California HAB stations (Pseudo-nitzschia spp.),2,1441,0.134,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.512,0.051,True,0.009,1.0,-0.108,model lags obs by 1 d,3
+pn,All California HAB stations (Pseudo-nitzschia spp.),3,1369,0.12,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 2) residuals","(1, 1, 2)",0.502,0.052,True,0.067,20.0,0.095,model lags obs by 20 d,2
+pn,Bodega Marine Lab,0,160,0.284,0.0,True,True,0.005,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.45,0.152,True,0.065,24.0,-0.405,model lags obs by 24 d,2
+pn,Bodega Marine Lab,1,156,0.291,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.487,0.154,True,0.056,19.0,-0.321,model lags obs by 19 d,4
+pn,Bodega Marine Lab,2,164,0.274,0.0,True,True,0.141,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.512,0.15,True,0.044,20.0,-0.284,model lags obs by 20 d,6
+pn,Bodega Marine Lab,3,158,0.261,0.0,True,True,0.358,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.475,0.153,True,0.028,21.0,-0.303,model lags obs by 21 d,6
+pn,Bodega Marine Lab Buoy,0,22,0.21,0.0,True,False,0.006,0.1,stationary (both agree),linear detrend,,0.455,0.41,True,0.186,-20.0,-0.851,model leads obs by 20 d,6
+pn,Bodega Marine Lab Buoy,1,18,0.248,0.0,True,True,0.001,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.5,0.453,True,0.117,3.0,0.433,model lags obs by 3 d,1
+pn,Bodega Marine Lab Buoy,2,22,0.214,0.0,True,True,0.002,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.591,0.41,True,0.186,-19.0,-0.509,model leads obs by 19 d,5
+pn,Bodega Marine Lab Buoy,3,23,0.201,0.0,True,False,0.144,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.522,0.401,True,0.01,-23.0,-0.63,model leads obs by 23 d,6
+pn,Cal Poly Pier,0,161,0.025,0.41,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.665,0.152,True,0.026,13.0,-0.298,model lags obs by 13 d,2
+pn,Cal Poly Pier,1,152,0.043,0.155,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.625,0.156,True,-0.155,5.0,-0.275,model lags obs by 5 d,3
+pn,Cal Poly Pier,2,159,-0.017,0.571,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.642,0.153,True,-0.088,6.0,-0.248,model lags obs by 6 d,4
+pn,Cal Poly Pier,3,138,-0.029,0.345,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.645,0.164,True,0.045,8.0,-0.276,model lags obs by 8 d,4
+pn,Inner Tomales Bay,0,28,0.323,0.0,True,True,0.004,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.357,0.363,False,0.106,-2.0,-0.481,model leads obs by 2 d,3
+pn,Inner Tomales Bay,1,28,0.324,0.0,True,True,0.198,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.571,0.363,True,0.11,-1.0,-0.465,model leads obs by 1 d,1
+pn,Inner Tomales Bay,2,30,0.329,0.0,True,True,0.222,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.4,0.351,True,-0.493,0.0,-0.493,zero lag,1
+pn,Inner Tomales Bay,3,26,0.33,0.0,True,True,0.237,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.346,0.377,False,-0.056,1.0,-0.472,model lags obs by 1 d,1
+pn,Monterey Wharf,0,106,0.441,0.0,True,True,0.26,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.425,0.187,True,0.037,,,,0
+pn,Monterey Wharf,1,107,0.436,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.439,0.186,True,-0.027,,,,0
+pn,Monterey Wharf,2,106,0.432,0.0,True,True,0.004,0.099,stationary (both agree),"ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.396,0.187,True,0.049,,,,0
+pn,Monterey Wharf,3,104,0.429,0.0,True,True,0.138,0.092,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.462,0.189,True,0.003,,,,0
+pn,Morro Bay Back Bay,0,144,0.561,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.465,0.16,True,0.015,2.0,-0.199,model lags obs by 2 d,1
+pn,Morro Bay Back Bay,1,147,0.551,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.442,0.159,True,0.043,3.0,-0.19,model lags obs by 3 d,1
+pn,Morro Bay Back Bay,2,144,0.535,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.424,0.16,True,-0.024,4.0,-0.233,model lags obs by 4 d,1
+pn,Morro Bay Back Bay,3,143,0.534,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.434,0.161,True,0.068,5.0,-0.233,model lags obs by 5 d,3
+pn,Morro Bay Front Bay,0,144,-0.026,0.402,False,False,0.003,0.1,stationary (both agree),none (stationary),,0.59,0.16,True,0.041,-1.0,0.192,model leads obs by 1 d,1
+pn,Morro Bay Front Bay,1,147,-0.166,0.0,True,False,0.001,0.1,stationary (both agree),linear detrend,,0.469,0.159,True,0.054,,,,0
+pn,Morro Bay Front Bay,2,144,-0.194,0.0,True,True,0.001,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.486,0.16,True,0.056,-24.0,0.187,model leads obs by 24 d,1
+pn,Morro Bay Front Bay,3,143,-0.206,0.0,True,True,0.0,0.1,stationary (both agree),"ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.497,0.161,True,0.06,-23.0,0.192,model leads obs by 23 d,1
+pn,Newport Beach Pier,0,140,-0.143,0.0,True,False,0.122,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.4,0.163,True,0.172,2.0,0.232,model lags obs by 2 d,12
+pn,Newport Beach Pier,1,130,-0.205,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.4,0.169,True,0.079,-20.0,0.229,model leads obs by 20 d,9
+pn,Newport Beach Pier,2,138,-0.235,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.333,0.164,True,0.107,-13.0,-0.214,model leads obs by 13 d,5
+pn,Newport Beach Pier,3,129,-0.247,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.372,0.169,True,0.147,-12.0,-0.199,model leads obs by 12 d,5
+pn,Santa Monica Pier,0,157,-0.136,0.0,True,False,0.001,0.032,"conflicting: ADF stationary, KPSS non-stationary (possible trend-stationarity)","ARIMA(2, 1, 2) residuals","(2, 1, 2)",0.561,0.153,True,-0.115,20.0,-0.353,model lags obs by 20 d,8
+pn,Santa Monica Pier,1,158,-0.128,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.532,0.153,True,0.074,21.0,-0.333,model lags obs by 21 d,4
+pn,Santa Monica Pier,2,160,-0.134,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.55,0.152,True,0.118,22.0,-0.321,model lags obs by 22 d,6
+pn,Santa Monica Pier,3,154,-0.151,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.565,0.155,True,-0.017,23.0,-0.334,model lags obs by 23 d,6
+pn,Scripps Pier,0,154,0.022,0.48,False,True,0.025,0.1,stationary (both agree),"ARIMA(1, 1, 2) residuals","(1, 1, 2)",0.39,0.155,True,-0.041,-11.0,-0.361,model leads obs by 11 d,7
+pn,Scripps Pier,1,152,-0.058,0.054,False,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 2) residuals","(1, 1, 2)",0.382,0.156,True,0.052,-10.0,-0.273,model leads obs by 10 d,6
+pn,Scripps Pier,2,155,-0.035,0.253,False,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 2) residuals","(1, 1, 2)",0.348,0.154,True,0.101,-9.0,-0.285,model leads obs by 9 d,7
+pn,Scripps Pier,3,149,-0.029,0.332,False,True,0.0,0.1,stationary (both agree),"ARIMA(1, 1, 2) residuals","(1, 1, 2)",0.409,0.158,True,0.039,-8.0,-0.294,model leads obs by 8 d,6
+pn,Stearns Wharf,0,154,-0.108,0.0,True,True,0.351,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(1, 1, 1) residuals","(1, 1, 1)",0.63,0.155,True,0.063,10.0,-0.446,model lags obs by 10 d,15
+pn,Stearns Wharf,1,153,-0.13,0.0,True,True,0.154,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)","ARIMA(2, 1, 1) residuals","(2, 1, 1)",0.582,0.155,True,0.099,11.0,-0.361,model lags obs by 11 d,11
+pn,Stearns Wharf,2,157,-0.19,0.0,True,False,0.221,0.1,"conflicting: ADF unit root, KPSS stationary (weak evidence)",linear detrend,,0.573,0.153,True,-0.044,-20.0,-0.402,model leads obs by 20 d,19
+pn,Stearns Wharf,3,149,-0.189,0.0,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.577,0.158,True,-0.083,-19.0,-0.415,model leads obs by 19 d,20
+pn,Tomales Bay Mid-Channel Buoy,0,29,-0.003,0.932,False,False,0.013,0.1,stationary (both agree),none (stationary),,0.483,0.357,True,0.175,-20.0,-0.433,model leads obs by 20 d,4
+pn,Tomales Bay Mid-Channel Buoy,1,29,-0.011,0.707,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.724,0.357,True,0.111,-19.0,-0.429,model leads obs by 19 d,3
+pn,Tomales Bay Mid-Channel Buoy,2,31,-0.011,0.711,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.581,0.345,True,-0.035,-18.0,-0.429,model leads obs by 18 d,3
+pn,Tomales Bay Mid-Channel Buoy,3,27,-0.012,0.7,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.407,0.37,True,-0.122,-17.0,-0.429,model leads obs by 17 d,3
+pn,Tomales Bay Mouth,0,29,0.061,0.047,True,False,0.007,0.1,stationary (both agree),linear detrend,,0.586,0.357,True,-0.084,28.0,-0.628,model lags obs by 28 d,8
+pn,Tomales Bay Mouth,1,29,-0.003,0.918,False,False,0.0,0.1,stationary (both agree),none (stationary),,0.552,0.357,True,-0.433,-18.0,-0.522,model leads obs by 18 d,6
+pn,Tomales Bay Mouth,2,31,-0.073,0.016,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.516,0.345,True,-0.284,8.0,-0.52,model lags obs by 8 d,3
+pn,Tomales Bay Mouth,3,26,-0.076,0.012,True,False,0.0,0.1,stationary (both agree),linear detrend,,0.538,0.377,True,0.04,9.0,-0.54,model lags obs by 9 d,5
